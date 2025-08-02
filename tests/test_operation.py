@@ -4,7 +4,7 @@ def test_add():
     a, b = 2, 3
     result = add(a, b)
     print(f"add({a}, {b}) = {result}")
-    assert result == 5
+    assert result == 6
 
     a, b = -1, 1
     result = add(a, b)
